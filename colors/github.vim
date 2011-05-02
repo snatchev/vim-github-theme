@@ -74,7 +74,7 @@ hi Search		guibg=#cdcdfd guifg=#000000 gui=italic
 hi Ignore		guifg=#808080
 hi Identifier	guifg=#0086B3
 hi PreProc		guifg=#A0A0A0 gui=bold
-hi Comment		guifg=#999988
+hi Comment		guifg=#999988 gui=italic
 hi Constant		guifg=#177F80 gui=none
 hi String		guifg=#D81745
 hi Function		guifg=#990000 gui=bold
@@ -90,6 +90,13 @@ hi Label        guifg=#000000 gui=bold
 hi StorageClass guifg=#000000 gui=bold
 hi Structure    guifg=#000000 gui=bold
 hi TypeDef      guifg=#000000 gui=bold
+" }}}
+
+" {{{ Ruby Syntax
+hi rubyDefine guifg=#000000 gui=bold
+hi rubyClass  guifg=#000000
+hi rubyConstant guifg=#008080
+hi rubyInclude guifg=#0086B3
 " }}}
 
 " {{{ Completion menus
